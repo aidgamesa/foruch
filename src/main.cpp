@@ -1,5 +1,7 @@
+//SETTINGS
+#define CROW_STATIC_DIRECTORY "../static/"
+
 #include <crow.h>
-#include <crow/mustache.h>
 
 int main(){
     crow::SimpleApp app;
